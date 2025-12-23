@@ -1,20 +1,24 @@
-
-
+// ======== 1st  Step ==========
 const plus = document.getElementById('plus');
 const reset = document.getElementById('reset');
 const minus = document.getElementById('minus');
+const counterElement = document.getElementById('counter');
 
-
-//  ========= 2nd Step ==========
+// =========== 2nd Step ==========
 let count = 0;
 
+
+//  ========= 3rd Step ==========
+
 plus.addEventListener('click', () => {
+    count = count + 1;
+    counterElement.textContent =count;
+});
 
-    count = count + 1
-    count.textContent = innerText
-
-})
-
+minus.addEventListener('click', () => {
+    count = count - 1;
+    counterElement.textContent =count;
+});
 
 
 
