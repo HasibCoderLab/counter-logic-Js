@@ -20,6 +20,12 @@ minus.addEventListener('click', () => {
     counterElement.textContent =count;
 });
 
+reset.addEventListener('click' , () =>{
+
+    let resetNum = 0;
+    counterElement.textContent = resetNum;
+}
+);
 
 
 
