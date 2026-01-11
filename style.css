@@ -20,3 +20,96 @@
 
     margin-right: 10px;
 }
+
+/*  Social Links */
+
+
+/* Contact With Me Section */
+.social-links {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.social-links p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    background-color: #f3f3f3;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    color: #333;
+}
+
+.link img {
+    width: 22px;
+    height: 22px;
+}
+
+.link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Specific platform colors */
+.portfolio {
+    background-color: #cce7ff;
+    color: #0073e6;
+}
+
+.github {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.linkedin {
+    background-color: #e6f0fa;
+    color: #0077b5;
+}
+
+.facebook {
+    background-color: #e8f4ff;
+    color: #1877f2;
+}
+
+.instagram {
+    background-color: #fde2e4;
+    color: #c32aa3;
+}
+
+.twitter {
+    background-color: #e8f5fd;
+    color: #1da1f2;
+}
+
+.youtube {
+    background-color: #ffe5e5;
+    color: #ff0000;
+}
+
+/* responsive for small screens */
+@media (max-width: 600px) {
+    .links {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
