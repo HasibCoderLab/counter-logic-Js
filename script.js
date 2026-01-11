@@ -31,8 +31,9 @@ minus.addEventListener('click', () => {
 
 reset.addEventListener('click' , () =>{
 
-    let resetNum = 0;
-    counterElement.textContent = resetNum;
+     count = 0;
+    counterElement.textContent =      count = 0;
+
 }
 );
 
